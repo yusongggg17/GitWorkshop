@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class SimpleFirstPersonController : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Movement speed
-    public float lookSpeedX = 2f; // Mouse X rotation speed
-    public float lookSpeedY = 2f; // Mouse Y rotation speed
-    public float jumpForce = 5f; // Jump height
-    public float gravity = -9.8f; // Gravity force
+    public float moveSpeed = 10f; // Movement speed
+    public float lookSpeedX = 3f; // Mouse X rotation speed
+    public float lookSpeedY = 3f; // Mouse Y rotation speed
+    public float jumpForce = 7f; // Jump height
+    public float gravity = -8f; // Gravity force
 
     private float rotationX = 0f; // Rotation on the X-axis (up/down)
     private float rotationY = 0f; // Rotation on the Y-axis (left/right)
